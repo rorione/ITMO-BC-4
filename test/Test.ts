@@ -100,8 +100,9 @@ describe("Swap test", () => {
 
     // Swap
     const saltToSwap = 100;
-    const sugarMin = 10;
+    const sugarMin = 90;
 
+    console.log("Swapping %s SLT to at least %s SGR", saltToSwap, sugarMin)
     await router.swapExactTokensForTokens(
       saltToSwap, sugarMin, 
       [salt.address, sugar.address], 

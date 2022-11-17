@@ -18,6 +18,7 @@ router allowance - salt: 2000, sugar: 2000
 Before liquidity added balance: 10000 salt, 10000 sugar
 Added 1500 liquidity
 After liquidity added balance: 8500 salt, 8500 sugar
+Swapping 100 SLT to at least 90 SGR
 After swap balance: 8400 salt, 8593 sugar
-    ✔ After deployment swap should be completed (228ms)
+    ✔ After deployment swap should be completed (237ms)
 ```
